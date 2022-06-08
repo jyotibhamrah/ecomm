@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@twks/ecomm/ui-shared": ["libs/ecomm/ui-shared/src/index.ts"],
+      "@twks/ecomm/util-formatters": ["libs/ecomm/util-formatters/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

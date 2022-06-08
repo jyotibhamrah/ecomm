@@ -1,5 +1,10 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "ecomm": "apps/ecomm",
+    "ecomm-e2e": "apps/ecomm-e2e",
+    "ecomm-ui-shared": "libs/ecomm/ui-shared",
+    "ecomm-util-formatters": "libs/ecomm/util-formatters"
+  }
 }
